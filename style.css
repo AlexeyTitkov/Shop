@@ -137,7 +137,6 @@ body {
 
   width: 1920px;
   height: 856px;
-  
 
   background: #282828;
 }
@@ -172,7 +171,7 @@ body {
   width: 160px;
   height: 0px;
 
-  border: 1px solid #ffffff;
+  border-bottom: 1px solid #ffffff;
 }
 
 .taste-text {
@@ -188,7 +187,7 @@ body {
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
-  line-height: 150%;
+  line-height: 24px;
   /* or 24px */
 
   text-align: center;
@@ -197,11 +196,92 @@ body {
 }
 
 .taste-image {
-margin-top: 50px;
+  margin-top: 50px;
   margin-left: 475px;
 
+  width: 160px;
+  height: 160px;
+}
 
-width: 160px;
-height: 160px;
+.novelty {
+  width: 1920px;
+  height: 1038px;
+  left: 0px;
+  top: 1756px;
 
+  background: #e6e3c4;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.novelty-border {
+  width: 1110px;
+  height: 878px;
+  left: 405px;
+  top: 1836px;
+
+  border: 1px solid #998431;
+}
+.novelty-border:last-child {
+  border-left: none;
+  border-right: none;
+}
+
+.novelty-text1 {
+  margin-top: 60px;
+  width: 347px;
+  height: 24px;
+  color: #000000;
+}
+.novelty-text2 {
+  margin-top: 30px;
+  width: 298px;
+  height: 108px;
+  font-family: Playfair Display;
+  font-size: 36px;
+  line-height: 150%;
+  color: #282828;
+}
+.novelty-line {
+  margin-top: 30px;
+  width: 160px;
+  border-bottom: 1px solid #282828;
+}
+.novelty-text3 {
+  margin-top: 30px;
+  width: 445px;
+  height: 84px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 150%;
+  color: #282828;
+}
+
+.novelty-line1 {
+  margin-top: 30px;
+  margin-left: 75px;
+  height: 160px;
+  border-left: 1px solid #282828;
+}
+
+.novelty-line2 {
+  margin-top: -120px;
+  width: 445px;
+  border-bottom: 1px solid #282828;
+}
+.novelty-line3 {
+  margin-top: 60px;
+  width: 445px;
+  border-bottom: 1px solid #282828;
+}
+
+.year1 {
+  margin-top: 24px;
+  margin-left: 12px;
+  width: 32px;
+height: 21px;
 }
